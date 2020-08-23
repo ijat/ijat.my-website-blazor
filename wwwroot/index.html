@@ -1,18 +1,13 @@
-﻿@page "/"
-@namespace Ijatmy_website.Pages
-@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-@{
-    Layout = null;
-}
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>⠀</title>
-    <base href="~/"/>
 
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>⠀</title>
+
+    <base href="/" />
+    
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -30,28 +25,17 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    
+
     <link rel="stylesheet" href="/vendor/tailwind/tailwind.min.css"/>
     <link rel="stylesheet" href="/vendor/icofonts/icofont.min.css"/>
     <link rel="stylesheet" href="/css/app.css"/>
 </head>
 
 <body style="background: #3f3f3f;">
-<app>
-    <component type="typeof(App)" render-mode="ServerPrerendered"/>
-</app>
-
-@* <div id="blazor-error-ui"> *@
-@*     <environment include="Staging,Production"> *@
-@*         An error has occurred. This application may no longer respond until reloaded. *@
-@*     </environment> *@
-@*     <environment include="Development"> *@
-@*         An unhandled exception has occurred. See browser dev tools for details. *@
-@*     </environment> *@
-@*     <a href="" class="reload">Reload</a> *@
-@*     <a class="dismiss">🗙</a> *@
-@* </div> *@
-
-<script src="_framework/blazor.server.js"></script>
+    <app>
+        <code style="margin-left:5px; color: whitesmoke;">Loading...</code>
+    </app>
+    <script src="/_framework/blazor.webassembly.js"></script>
 </body>
+
 </html>

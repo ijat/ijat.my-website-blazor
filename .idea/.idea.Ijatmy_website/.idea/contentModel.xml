@@ -38,36 +38,65 @@
       </e>
       <e p="Shared" t="Include">
         <e p="MainLayout.razor" t="Include" />
-        <e p="NavMenu.razor" t="Include" />
-        <e p="SurveyPrompt.razor" t="Include" />
       </e>
       <e p="Startup.cs" t="Include" />
       <e p="wwwroot" t="Include">
+        <e p="android-icon-144x144.png" t="Include" />
+        <e p="android-icon-192x192.png" t="Include" />
+        <e p="android-icon-36x36.png" t="Include" />
+        <e p="android-icon-48x48.png" t="Include" />
+        <e p="android-icon-72x72.png" t="Include" />
+        <e p="android-icon-96x96.png" t="Include" />
+        <e p="apple-icon-114x114.png" t="Include" />
+        <e p="apple-icon-120x120.png" t="Include" />
+        <e p="apple-icon-144x144.png" t="Include" />
+        <e p="apple-icon-152x152.png" t="Include" />
+        <e p="apple-icon-180x180.png" t="Include" />
+        <e p="apple-icon-57x57.png" t="Include" />
+        <e p="apple-icon-60x60.png" t="Include" />
+        <e p="apple-icon-72x72.png" t="Include" />
+        <e p="apple-icon-76x76.png" t="Include" />
+        <e p="apple-icon-precomposed.png" t="Include" />
+        <e p="apple-icon.png" t="Include" />
+        <e p="browserconfig.xml" t="Include" />
         <e p="css" t="Include">
-          <e p="bootstrap" t="Include">
-            <e p="bootstrap.min.css" t="Include" />
-            <e p="bootstrap.min.css.map" t="Include" />
-          </e>
-          <e p="open-iconic" t="Include">
-            <e p="font" t="Include">
-              <e p="css" t="Include">
-                <e p="open-iconic-bootstrap.min.css" t="Include" />
-              </e>
-              <e p="fonts" t="Include">
-                <e p="open-iconic.eot" t="Include" />
-                <e p="open-iconic.otf" t="Include" />
-                <e p="open-iconic.svg" t="Include" />
-                <e p="open-iconic.ttf" t="Include" />
-                <e p="open-iconic.woff" t="Include" />
-              </e>
-            </e>
-            <e p="FONT-LICENSE" t="Include" />
-            <e p="ICON-LICENSE" t="Include" />
-            <e p="README.md" t="Include" />
-          </e>
-          <e p="site.css" t="Include" />
+          <e p="app.css" t="Include" />
         </e>
+        <e p="favicon-16x16.png" t="Include" />
+        <e p="favicon-32x32.png" t="Include" />
+        <e p="favicon-96x96.png" t="Include" />
         <e p="favicon.ico" t="Include" />
+        <e p="index.html" t="Include" />
+        <e p="manifest.json" t="Include" />
+        <e p="ms-icon-144x144.png" t="Include" />
+        <e p="ms-icon-150x150.png" t="Include" />
+        <e p="ms-icon-310x310.png" t="Include" />
+        <e p="ms-icon-70x70.png" t="Include" />
+        <e p="vendor" t="Include">
+          <e p="icofonts" t="Include">
+            <e p="fonts" t="Include">
+              <e p="icofont.eot" t="Include" />
+              <e p="icofont.svg" t="Include" />
+              <e p="icofont.ttf" t="Include" />
+              <e p="icofont.woff" t="Include" />
+              <e p="icofont.woff2" t="Include" />
+            </e>
+            <e p="icofont.min.css" t="Include" />
+          </e>
+          <e p="jetbrains-mono" t="Include">
+            <e p="JetBrainsMono-Bold-Italic.woff2" t="Include" />
+            <e p="JetBrainsMono-Bold.woff2" t="Include" />
+            <e p="JetBrainsMono-ExtraBold-Italic.woff2" t="Include" />
+            <e p="JetBrainsMono-ExtraBold.woff2" t="Include" />
+            <e p="JetBrainsMono-Italic.woff2" t="Include" />
+            <e p="JetBrainsMono-Medium-Italic.woff2" t="Include" />
+            <e p="JetBrainsMono-Medium.woff2" t="Include" />
+            <e p="JetBrainsMono-Regular.woff2" t="Include" />
+          </e>
+          <e p="tailwind" t="Include">
+            <e p="tailwind.min.css" t="Include" />
+          </e>
+        </e>
       </e>
     </e>
   </component>
