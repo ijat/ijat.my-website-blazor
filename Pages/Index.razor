@@ -1,8 +1,10 @@
 ﻿@page "/"
+@inject LinkService LinkService
 
 <div class="zbody">
-    @* <span style="color: white;">@LinkService.GetGuid("github")</span> *@
-    @* <input autofocus type="text" @onkeydown="KeyboardEventHandler " @onkeypress=" KeyboardEventHandler " @onkeyup="KeyboardEventHandler "/> *@
+    
+    <div id="terminal"></div>
+    
     <div class="antialiased h-screen flex justify-center items-center">
         <div class="block text-white text-center jetmono">
             
@@ -19,19 +21,21 @@
                 Fullstack | IoT | *nix
             </div>
             <div class="mt-3 text-2xl text-gray-500">
-                <a href="https://github.com/ijat"><i class="icofont-github"></i></a>
-                <a href="https://www.linkedin.com/in/syafiqizzat"><i class="icofont-linkedin"></i></a>
-                <a href="https://twitter.com/msyafiqIzzat"><i class="icofont-twitter"></i></a>
-                <a href="https://www.facebook.com/ijat325"><i class="icofont-facebook"></i></a>
-                <a href="https://www.instagram.com/ijatrf/"><i class="icofont-instagram"></i></a>
-                <a href="https://steamcommunity.com/id/solRenegade/"><i class="icofont-steam"></i></a>
-                <a href="https://steamcommunity.com/id/solRenegade/"><i class="icofont-youtube"></i></a>
-                <a href="https://www.last.fm/user/ijat325"><i class="icofont-brand-lastfm"></i></a>
-                <a href="https://pgp.circl.lu/pks/lookup?op=vindex&fingerprint=on&search=0x2516AC47291E9485"><i class="icofont-key"></i></a>
+
+                <a href="@LinkService.GetGuid("linkedin")"><i class="icofont-linkedin"></i></a>
+                <a href="@LinkService.GetGuid("twitter")"><i class="icofont-twitter"></i></a>
+                <a href="@LinkService.GetGuid("facebook")"><i class="icofont-facebook"></i></a>
+                <a href="@LinkService.GetGuid("instagram")"><i class="icofont-instagram"></i></a>
+                <a href="@LinkService.GetGuid("github")"><i class="icofont-github"></i></a>
+                <a href="@LinkService.GetGuid("steam")"><i class="icofont-steam"></i></a>
+                <a href="@LinkService.GetGuid("youtube")"><i class="icofont-youtube"></i></a>
+                <a href="@LinkService.GetGuid("lastfm")"><i class="icofont-brand-lastfm"></i></a>
+                <a href="@LinkService.GetGuid("pgp")"><i class="icofont-key"></i></a>
+                <a href="@LinkService.GetGuid("pgp-current")"><i class="icofont-key"></i></a>
             </div>
         </div>
     </div>
     <div class="jetmono fixed bottom-0 w-screen text-xs text-blue-20 text-center text-gray-600 mb-1">
-        © 2020 ijat.my
+        © @DateTime.Today.Year ijat.my
     </div>
 </div>  

@@ -18,7 +18,7 @@
     "Ijatmy_website": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:2001",
+      "applicationUrl": "https://localhost:2000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

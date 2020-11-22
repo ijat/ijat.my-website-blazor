@@ -8,70 +8,140 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c791f73d-05dd-494b-899d-6b27dc8902a9" name="Default Changelist" comment="Init">
-      <change afterPath="$PROJECT_DIR$/wwwroot/android-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/android-icon-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/android-icon-36x36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/android-icon-48x48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/android-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/android-icon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/apple-icon-114x114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/apple-icon-120x120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/apple-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/apple-icon-152x152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/apple-icon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/apple-icon-57x57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/apple-icon-60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/apple-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/apple-icon-76x76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/apple-icon-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/favicon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/ms-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/ms-icon-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/ms-icon-310x310.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/ms-icon-70x70.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/icofonts/fonts/icofont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/icofonts/fonts/icofont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/icofonts/fonts/icofont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/icofonts/fonts/icofont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/icofonts/fonts/icofont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/icofonts/icofont.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/jetbrains-mono/JetBrainsMono-Bold-Italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/jetbrains-mono/JetBrainsMono-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/jetbrains-mono/JetBrainsMono-ExtraBold-Italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/jetbrains-mono/JetBrainsMono-ExtraBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/jetbrains-mono/JetBrainsMono-Italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/jetbrains-mono/JetBrainsMono-Medium-Italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/jetbrains-mono/JetBrainsMono-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/jetbrains-mono/JetBrainsMono-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/tailwind/tailwind.min.css" afterDir="false" />
+    <list default="true" id="c791f73d-05dd-494b-899d-6b27dc8902a9" name="Default Changelist" comment="Upgrade to ijat.my website">
+      <change afterPath="$PROJECT_DIR$/Pages/Go.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/LinkService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm-addon-attach/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm-addon-attach/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm-addon-attach/lib/xterm-addon-attach.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm-addon-attach/lib/xterm-addon-attach.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm-addon-attach/out/AttachAddon.api.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm-addon-attach/out/AttachAddon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm-addon-attach/out/AttachAddon.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm-addon-attach/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm-addon-attach/src/AttachAddon.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm-addon-attach/typings/xterm-addon-attach.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/css/xterm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/lib/xterm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/lib/xterm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/AccessibilityManager.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/Clipboard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/Color.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/ColorContrastCache.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/ColorManager.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/Dom.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/Lifecycle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/Linkifier.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/Linkifier2.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/LocalizableStrings.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/MouseZoneManager.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/RenderDebouncer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/ScreenDprMonitor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/Terminal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/Types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/Viewport.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/input/CompositionHelper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/input/Mouse.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/input/MoveToCell.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/public/AddonManager.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/public/Terminal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/renderer/BaseRenderLayer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/renderer/CharacterJoinerRegistry.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/renderer/CursorRenderLayer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/renderer/GridCache.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/renderer/LinkRenderLayer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/renderer/Renderer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/renderer/RendererUtils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/renderer/SelectionRenderLayer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/renderer/TextRenderLayer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/renderer/Types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/renderer/atlas/BaseCharAtlas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/renderer/atlas/CharAtlasCache.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/renderer/atlas/CharAtlasUtils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/renderer/atlas/Constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/renderer/atlas/DynamicCharAtlas.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/renderer/atlas/LRUMap.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/renderer/atlas/Types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/renderer/dom/DomRenderer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/renderer/dom/DomRendererRowFactory.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/selection/SelectionModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/selection/Types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/services/CharSizeService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/services/CoreBrowserService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/services/MouseService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/services/RenderService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/services/SelectionService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/services/Services.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/services/SoundService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/browser/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/CircularList.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/Clone.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/CoreTerminal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/EventEmitter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/InputHandler.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/Lifecycle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/Platform.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/TypedArrayUtils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/Types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/WindowsMode.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/buffer/AttributeData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/buffer/Buffer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/buffer/BufferLine.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/buffer/BufferReflow.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/buffer/BufferSet.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/buffer/CellData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/buffer/Constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/buffer/Marker.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/buffer/Types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/data/Charsets.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/data/EscapeSequences.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/input/Keyboard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/input/TextDecoder.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/input/UnicodeV6.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/input/WriteBuffer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/parser/Constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/parser/DcsParser.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/parser/EscapeSequenceParser.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/parser/OscParser.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/parser/Params.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/parser/Types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/services/BufferService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/services/CharsetService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/services/CoreMouseService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/services/CoreService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/services/DirtyRowService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/services/InstantiationService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/services/LogService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/services/OptionsService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/services/ServiceRegistry.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/services/Services.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/services/UnicodeService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/common/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/tsconfig-base.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/src/tsconfig-library-base.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/tsconfig.all.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/vendor/xterm/typings/xterm.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Ijatmy_website/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ijatmy_website/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Ijatmy_website/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ijatmy_website/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.razor" beforeDir="false" afterPath="$PROJECT_DIR$/App.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/WeatherForecastService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ijatmy_website.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Ijatmy_website.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Counter.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/FetchData.razor" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Index.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/_Host.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/_Host.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/MainLayout.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared/NavMenu.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared/SurveyPrompt.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/bootstrap/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/bootstrap/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/open-iconic/FONT-LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/open-iconic/ICON-LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/open-iconic/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/open-iconic/font/fonts/open-iconic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/open-iconic/font/fonts/open-iconic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/open-iconic/font/fonts/open-iconic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/open-iconic/font/fonts/open-iconic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/_Imports.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/app.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,12 +154,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
-        <option value="$PROJECT_DIR$/Pages/_Host.cshtml" />
-        <option value="$PROJECT_DIR$/Pages/Index.razor" />
         <option value="$PROJECT_DIR$/Shared/SurveyPrompt.razor" />
         <option value="$PROJECT_DIR$/Shared/NavMenu.razor" />
         <option value="$PROJECT_DIR$/Shared/MainLayout.razor" />
+        <option value="$PROJECT_DIR$/Pages/Go.cshtml" />
+        <option value="$PROJECT_DIR$/_Imports.razor" />
+        <option value="$PROJECT_DIR$/App.razor" />
+        <option value="$PROJECT_DIR$/Pages/Go.razor" />
+        <option value="$PROJECT_DIR$/Services/LinkService.cs" />
+        <option value="$PROJECT_DIR$/wwwroot/js/app.js" />
+        <option value="$PROJECT_DIR$/wwwroot/css/app.css" />
+        <option value="$PROJECT_DIR$/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/Startup.cs" />
+        <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/Pages/Index.razor" />
+        <option value="$PROJECT_DIR$/Pages/_Host.cshtml" />
       </list>
     </option>
   </component>
@@ -104,12 +183,18 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35064936" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3001443" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3508892" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3002736" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Ijatmy_website">
+    <configuration name="Publish Linux" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish runtime="linux-x64" self_contained="true" target_folder="C:\Users\Ijat\RiderProjects\Ijatmy_website\bin\Published" target_framework="netcoreapp3.1" uuid_high="7396278469976147794" uuid_low="-8868694221097330683" />
+      <method v="2" />
+    </configuration>
     <configuration name="Ijatmy_website" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Ijatmy_website.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
@@ -140,6 +225,11 @@
         <option name="Build" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.Ijatmy_website" />
+      <item itemvalue=".NET Launch Settings Profile.Ijatmy_website: IIS Express" />
+      <item itemvalue="Publish to folder.Publish Linux" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -149,7 +239,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598180921783</updated>
-      <workItem from="1598180935266" duration="1033000" />
+      <workItem from="1598180935266" duration="8762000" />
+      <workItem from="1598457622620" duration="3375000" />
+      <workItem from="1598665608695" duration="2214000" />
+      <workItem from="1598721868494" duration="4492000" />
+      <workItem from="1599373919161" duration="101000" />
+      <workItem from="1601396737982" duration="658000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1598180989154</created>
@@ -165,13 +260,20 @@
       <option name="project" value="LOCAL" />
       <updated>1598180999019</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Upgrade to ijat.my website">
+      <created>1598183061234</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598183061234</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -183,93 +285,119 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Upgrade to ijat.my website" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upgrade to ijat.my website" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="724" height="292" key="GridCell.Tab.0.bottom" timestamp="1598181283665">
+    <state x="223" y="72" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598459633328">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="724" height="292" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598181283665" />
-    <state width="724" height="292" key="GridCell.Tab.0.center" timestamp="1598181283665">
+    <state x="223" y="72" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1598459633328" />
+    <state width="450" height="464" key="DebuggerActiveHint" timestamp="1598183742144">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="724" height="292" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1598181283665" />
-    <state width="724" height="292" key="GridCell.Tab.0.left" timestamp="1598181283665">
+    <state width="450" height="464" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1598183742144" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1601397802096">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="724" height="292" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1598181283665" />
-    <state width="724" height="292" key="GridCell.Tab.0.right" timestamp="1598181283665">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1601397802096" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1601397802096">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="724" height="292" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1598181283665" />
-    <state width="724" height="292" key="GridCell.Tab.1.bottom" timestamp="1598181283380">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1601397802096" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1601397802096">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="724" height="292" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598181283380" />
-    <state width="724" height="292" key="GridCell.Tab.1.center" timestamp="1598181283380">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1601397802096" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1601397802096">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="724" height="292" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1598181283380" />
-    <state width="724" height="292" key="GridCell.Tab.1.left" timestamp="1598181283379">
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1601397802096" />
+    <state width="1493" height="292" key="GridCell.Tab.1.bottom" timestamp="1598731583905">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="724" height="292" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1598181283379" />
-    <state width="724" height="292" key="GridCell.Tab.1.right" timestamp="1598181283380">
+    <state width="1493" height="292" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598731583905" />
+    <state width="1493" height="292" key="GridCell.Tab.1.center" timestamp="1598731583905">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="724" height="292" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1598181283380" />
-    <state width="724" height="292" key="GridCell.Tab.2.bottom" timestamp="1598181283380">
+    <state width="1493" height="292" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1598731583905" />
+    <state width="1493" height="292" key="GridCell.Tab.1.left" timestamp="1598731583904">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="724" height="292" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598181283380" />
-    <state width="724" height="292" key="GridCell.Tab.2.center" timestamp="1598181283380">
+    <state width="1493" height="292" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1598731583904" />
+    <state width="1493" height="292" key="GridCell.Tab.1.right" timestamp="1598731583905">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="724" height="292" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1598181283380" />
-    <state width="724" height="292" key="GridCell.Tab.2.left" timestamp="1598181283380">
+    <state width="1493" height="292" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1598731583905" />
+    <state width="1493" height="292" key="GridCell.Tab.2.bottom" timestamp="1598731583905">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="724" height="292" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1598181283380" />
-    <state width="724" height="292" key="GridCell.Tab.2.right" timestamp="1598181283380">
+    <state width="1493" height="292" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598731583905" />
+    <state width="1493" height="292" key="GridCell.Tab.2.center" timestamp="1598731583905">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="724" height="292" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1598181283380" />
-    <state width="724" height="292" key="GridCell.Tab.3.bottom" timestamp="1598181283380">
+    <state width="1493" height="292" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1598731583905" />
+    <state width="1493" height="292" key="GridCell.Tab.2.left" timestamp="1598731583905">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="724" height="292" key="GridCell.Tab.3.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598181283380" />
-    <state width="724" height="292" key="GridCell.Tab.3.center" timestamp="1598181283380">
+    <state width="1493" height="292" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1598731583905" />
+    <state width="1493" height="292" key="GridCell.Tab.2.right" timestamp="1598731583905">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="724" height="292" key="GridCell.Tab.3.center/0.0.1536.834@0.0.1536.834" timestamp="1598181283380" />
-    <state width="724" height="292" key="GridCell.Tab.3.left" timestamp="1598181283380">
+    <state width="1493" height="292" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1598731583905" />
+    <state width="1493" height="292" key="GridCell.Tab.3.bottom" timestamp="1598731583905">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="724" height="292" key="GridCell.Tab.3.left/0.0.1536.834@0.0.1536.834" timestamp="1598181283380" />
-    <state width="724" height="292" key="GridCell.Tab.3.right" timestamp="1598181283380">
+    <state width="1493" height="292" key="GridCell.Tab.3.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598731583905" />
+    <state width="1493" height="292" key="GridCell.Tab.3.center" timestamp="1598731583905">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="724" height="292" key="GridCell.Tab.3.right/0.0.1536.834@0.0.1536.834" timestamp="1598181283380" />
-    <state width="724" height="292" key="GridCell.Tab.4.bottom" timestamp="1598181283380">
+    <state width="1493" height="292" key="GridCell.Tab.3.center/0.0.1536.834@0.0.1536.834" timestamp="1598731583905" />
+    <state width="1493" height="292" key="GridCell.Tab.3.left" timestamp="1598731583905">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="724" height="292" key="GridCell.Tab.4.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598181283380" />
-    <state width="724" height="292" key="GridCell.Tab.4.center" timestamp="1598181283380">
+    <state width="1493" height="292" key="GridCell.Tab.3.left/0.0.1536.834@0.0.1536.834" timestamp="1598731583905" />
+    <state width="1493" height="292" key="GridCell.Tab.3.right" timestamp="1598731583905">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="724" height="292" key="GridCell.Tab.4.center/0.0.1536.834@0.0.1536.834" timestamp="1598181283380" />
-    <state width="724" height="292" key="GridCell.Tab.4.left" timestamp="1598181283380">
+    <state width="1493" height="292" key="GridCell.Tab.3.right/0.0.1536.834@0.0.1536.834" timestamp="1598731583905" />
+    <state width="1493" height="292" key="GridCell.Tab.4.bottom" timestamp="1598731583905">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="724" height="292" key="GridCell.Tab.4.left/0.0.1536.834@0.0.1536.834" timestamp="1598181283380" />
-    <state width="724" height="292" key="GridCell.Tab.4.right" timestamp="1598181283380">
+    <state width="1493" height="292" key="GridCell.Tab.4.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598731583905" />
+    <state width="1493" height="292" key="GridCell.Tab.4.center" timestamp="1598731583905">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="724" height="292" key="GridCell.Tab.4.right/0.0.1536.834@0.0.1536.834" timestamp="1598181283380" />
+    <state width="1493" height="292" key="GridCell.Tab.4.center/0.0.1536.834@0.0.1536.834" timestamp="1598731583905" />
+    <state width="1493" height="292" key="GridCell.Tab.4.left" timestamp="1598731583905">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="292" key="GridCell.Tab.4.left/0.0.1536.834@0.0.1536.834" timestamp="1598731583905" />
+    <state width="1493" height="292" key="GridCell.Tab.4.right" timestamp="1598731583905">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="292" key="GridCell.Tab.4.right/0.0.1536.834@0.0.1536.834" timestamp="1598731583905" />
+    <state x="361" y="149" key="Rider.ProjectTemplateDialog.Size" timestamp="1598665837033">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="149" key="Rider.ProjectTemplateDialog.Size/0.0.1536.834@0.0.1536.834" timestamp="1598665837033" />
+    <state x="277" y="62" key="SettingsEditor" timestamp="1598457666308">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1598457666308" />
+    <state width="775" height="424" key="XDebugger.FullValuePopup" timestamp="1598184802794">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="775" height="424" key="XDebugger.FullValuePopup/0.0.1536.834@0.0.1536.834" timestamp="1598184802794" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1598183858864">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1598183858864" />
   </component>
 </project>

@@ -1,0 +1,21 @@
+﻿@page "/g/{Guid}"
+
+@inject LinkService LinkService
+@inject NavigationManager NavigationManager
+
+<h1 class="jetmono m-1 text-white">Redirecting...</h1>
+
+@code {
+    [Parameter]
+    public string Guid { get; set; }
+    
+    protected override void OnInitialized()
+    {
+        string link = LinkService.GetLink(Guid);
+        //await Task.Delay(new TimeSpan(0, 0, 3));
+        if (link.Length == 0)
+            NavigationManager.NavigateTo("/", true);
+        else 
+            NavigationManager.NavigateTo(link, true);
+    }
+}

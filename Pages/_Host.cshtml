@@ -34,11 +34,12 @@
     <link rel="stylesheet" href="/vendor/tailwind/tailwind.min.css"/>
     <link rel="stylesheet" href="/vendor/icofonts/icofont.min.css"/>
     <link rel="stylesheet" href="/css/app.css"/>
+    <link rel="stylesheet" href="/vendor/xterm/css/xterm.css"/>
 </head>
 
 <body style="background: #3f3f3f;">
 <app>
-    <component type="typeof(App)" render-mode="ServerPrerendered"/>
+    <component type="typeof(App)" render-mode="Server"/>
 </app>
 
 @* <div id="blazor-error-ui"> *@
@@ -53,5 +54,54 @@
 @* </div> *@
 
 <script src="_framework/blazor.server.js"></script>
+<script src="/vendor/xterm/lib/xterm.js"></script>
+<script src="/js/app.js"></script>
+<script src="/vendor/xterm/lib/xterm.js"></script>
+<script src="/vendor/xterm-addon-attach/lib/xterm-addon-attach.js"></script>
+
+<script>
+    function startTerminal() {
+        let term = new Terminal({
+            cursorBlink: "block",
+            theme: {
+                foreground: "#fff",
+                background: "transparent",
+                cursor: "#fff"
+            },
+            allowTransparency: true
+        });
+
+        const wsSocket = new WebSocket('wss://wsterm.ijat.my/ws');
+        const wsAddon = new AttachAddon.AttachAddon(wsSocket);
+        term.loadAddon(wsAddon);
+        term.open(document.getElementById("terminal"));
+        term.write("Press ENTER to start session");
+        term.focus();
+    }
+    
+    (function() {
+        document.onkeyup = function(e) {
+            if (e.which == 13) {
+                console.log(e);
+                document.onkeyup = null;
+
+                const element = document.getElementById('terminal');
+                let pos = -100;
+                let id = setInterval(frame, 1);
+                function frame() {
+                    if (pos === 5) {
+                        clearInterval(id);
+                    } else {
+                        element.style.top = pos + "%";
+                        pos++;
+                    }
+                }
+                
+                startTerminal();
+            }
+        };
+    })();
+</script>
+
 </body>
 </html>
