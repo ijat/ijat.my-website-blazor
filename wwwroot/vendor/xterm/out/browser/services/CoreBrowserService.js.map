@@ -1,1 +1,0 @@
-{"version":3,"file":"CoreBrowserService.js","sourceRoot":"","sources":["../../../src/browser/services/CoreBrowserService.ts"],"names":[],"mappings":";;;AAOA;IAGE,4BACU,SAA8B;QAA9B,cAAS,GAAT,SAAS,CAAqB;IAExC,CAAC;IAED,sBAAW,yCAAS;aAApB;YACE,OAAO,QAAQ,CAAC,aAAa,KAAK,IAAI,CAAC,SAAS,IAAI,QAAQ,CAAC,QAAQ,EAAE,CAAC;QAC1E,CAAC;;;OAAA;IACH,yBAAC;AAAD,CAAC,AAXD,IAWC;AAXY,gDAAkB"}
