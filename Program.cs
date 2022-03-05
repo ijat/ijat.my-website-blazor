@@ -15,7 +15,7 @@ namespace Ijatmy_website
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                    webBuilder.UseUrls("http://0.0.0.0:2000");
+                    //webBuilder.UseUrls("http://0.0.0.0:2000");
                 });
     }
 }
