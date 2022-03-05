@@ -18,10 +18,7 @@
     "Ijatmy_website": {
       "commandName": "Project",
       "launchBrowser": true,
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "applicationUrl": "https://localhost:2000"
+      "applicationUrl": "http://*:2000"
     },
     "Docker": {
       "commandName": "Docker",
