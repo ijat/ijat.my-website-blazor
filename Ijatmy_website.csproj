@@ -1,7 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
-        <TargetFramework>net5.0</TargetFramework>
+      	<RunAOTCompilation>true</RunAOTCompilation>
+        <TargetFramework>net7.0</TargetFramework>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
         <DockerfileContext>.</DockerfileContext>
         <AssemblyName>Ijatmy</AssemblyName>
@@ -9,16 +10,21 @@
         <UserSecretsId>077e4604-49f9-4616-aad5-194a34248562</UserSecretsId>
     </PropertyGroup>
 
+    <PropertyGroup Condition=" '$(RunConfiguration)' == 'Ijatmy_website' " />
     <ItemGroup>
       <Folder Include="Data" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="4.4.2">
+      <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="4.9.4">
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
-      <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.11.1" />
+      <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
+      <PackageReference Include="PublishSPAforGitHubPages.Build" Version="2.0.2" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="PublishSPAforGitHubPages.Build" />
+    </ItemGroup>
 </Project>

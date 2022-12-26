@@ -18,14 +18,16 @@
     "Ijatmy_website": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://*:8080"
+      "applicationUrl": "http://*:8080",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
     },
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
-      "publishAllPorts": true,
-      "useSSL": true
+      "environmentVariables": {}
     }
   }
 }
