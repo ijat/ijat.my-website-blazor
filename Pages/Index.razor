@@ -1,5 +1,5 @@
 ﻿@page "/"
-@inject LinkService LinkService
+@inject Ijatmy_website.Services.LinkService LinkService
 
 <div class="zbody">
     
@@ -29,8 +29,8 @@
                 <a href="@LinkService.GetGuid("steam")"><i class="icofont-steam"></i></a>
                 <a href="@LinkService.GetGuid("youtube")"><i class="icofont-youtube"></i></a>
                 <a href="@LinkService.GetGuid("lastfm")"><i class="icofont-brand-lastfm"></i></a>
-                <a href="@LinkService.GetGuid("pgp")"><i class="icofont-key"></i></a>
-                <a href="@LinkService.GetGuid("pgp-current")"><i class="icofont-key"></i></a>
+                @*<a href="@LinkService.GetGuid("pgp")"><i class="icofont-key"></i></a>*@
+                @*<a href="@LinkService.GetGuid("pgp-current")"><i class="icofont-key"></i></a>*@
             </div>
         </div>
     </div>

@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{66A4DC14-CECC-4752-84EC-119821EF1805}|http">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Shared/MainLayout.razor">
+    <Files>
+      <File FileName="Pages/Go.razor" Line="1" Column="1" />
+      <File FileName="Pages/Index.razor" Line="1" Column="1" />
+      <File FileName="Shared/MainLayout.razor" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Ijatmy_website" expanded="True">
+            <Node name="Ijatmy_website" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Pages" expanded="True" />
+              <Node name="Shared" expanded="True" />
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Ijatmy__website PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+  <MultiItemStartupConfigurations />
+</Properties>

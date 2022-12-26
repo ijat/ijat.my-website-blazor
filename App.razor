@@ -1,15 +1,13 @@
-﻿@using Ijatmy.Shared
-<Router AppAssembly="@typeof(Program).Assembly">
+﻿<Router AppAssembly="@typeof(App).Assembly">
     <Found Context="routeData">
-        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)"/>
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+        <FocusOnNavigate RouteData="@routeData" Selector="h1" />
     </Found>
     <NotFound>
-        <div class="zbody">
-            <div class="antialiased h-screen flex justify-center items-center">
-                <div class="block text-white text-center jetmono">
-                    404
-                </div>
-            </div>
-        </div>
+        <PageTitle>Not found</PageTitle>
+        <LayoutView Layout="@typeof(MainLayout)">
+            <p role="alert">Sorry, there's nothing at this address.</p>
+        </LayoutView>
     </NotFound>
 </Router>
+
