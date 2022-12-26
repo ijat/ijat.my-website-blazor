@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>⠀</title>
 
-    <base href="/ijat.my-website-blazor/" />
+    <base href="/" />
     
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -32,10 +32,12 @@
 </head>
 
 <body style="background: #3f3f3f;">
-    <app>
+    <div id="app">
         <code style="margin-left:5px; color: whitesmoke;">Loading...</code>
-    </app>
-    <script src="/_framework/blazor.webassembly.js"></script>
+    </div>
+    <script src="_framework/blazor.webassembly.js" autostart="false"></script>
+    <script src="decode.min.js"></script>
+    <script src="brotliloader.min.js"></script>
 </body>
 
 </html>
